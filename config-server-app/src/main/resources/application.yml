@@ -1,0 +1,10 @@
+security:
+  user:
+    name: admin
+    password: admin
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://github.com/Sojiro/spring-boot/blob/master/config-server-props/spring-boot-web-jsp.yml
